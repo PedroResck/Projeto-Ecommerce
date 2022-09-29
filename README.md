@@ -2,6 +2,8 @@
   Ecommerce com Redux
 </h1>
 
+<br>
+
 <p>
   Projeto feito para estudar o uso do React Redux / Axios / Json Server 
 </p>
@@ -26,10 +28,10 @@
 
 1. Instale o [Node.js](https://nodejs.org/en/download/), [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/) e [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git);
 
-2. Baixe o projeto onde desejar através do comando abaixo:
+2. Clone o projeto utilizando o comando abaixo (chave SSH):
 
 ```console
-git clone 
+git clone git@github.com:PedroResck/Projeto-Ecommerce.git
 ```
 
 3. Execute os comandos abaixo:
