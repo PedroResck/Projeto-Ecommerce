@@ -2,8 +2,8 @@
   Ecommerce com Redux
 </h1>
 
-<p align="center">
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<p>
+  Projeto feito para estudar o uso do React Redux / Axios / Json Server 
 </p>
 
 <br>
