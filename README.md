@@ -4,11 +4,13 @@
 
 <br>
 
-<p>
-  Projeto feito para estudar o uso do React Redux / Axios / Json Server 
-</p>
+## Objetivo
 
-<br>
+* Estudar/treinar a criação de uma aplicação utilizando React / Redux
+* Experienciar a criação de uma fake API com Json Server 
+* Consumir os dados da API criada com Axios
+* Estudar/treinar conceitos de JavaScript
+* Estudar/treinar estilização usando CSS
 
 
 ## Tecnologias
