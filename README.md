@@ -1,7 +1,7 @@
 <h1 align="center">
   Ecommerce com Redux
 </h1>
-
+<img src="src/assets/home-page.png">
 <br>
 
 ## Objetivo
