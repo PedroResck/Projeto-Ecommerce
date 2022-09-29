@@ -1,36 +1,13 @@
 <h1 align="center">
-  <img alt="BeTheHero" title="BeTheHero" src="https://github.com/OneBitCodeBlog/onebitbooks/blob/master/.github/LogoOBB.png" width="200px" />
+  Ecommerce com Redux
 </h1>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/OneBitCodeBlog/onebitbooks">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/OneBitCodeBlog/onebitbooks">
-
-  <a href="https://github.com/Rocketseat/semana-omnistack-10/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/OneBitCodeBlog/onebitbooks">
-  </a>
-</p>
-
-<h3 align="center">
-  Loja de livros online com Redux
-</h3>
-
-<p align="center">
-  <a href="#demonstração">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#utilização">Utilização</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
 
-## Demonstração
-
-<p align="center">
-  <img alt="web" src="https://github.com/OneBitCodeBlog/onebitbooks/blob/master/.github/obb.gif" width="100%">
-</p>
-
-<br>
 
 ## Tecnologias
 
@@ -52,13 +29,13 @@
 2. Baixe o projeto onde desejar através do comando abaixo:
 
 ```console
-git clone https://github.com/OneBitCodeBlog/onebitbooks
+git clone 
 ```
 
 3. Execute os comandos abaixo:
 
 ```console
-cd onebitbooks
+cd ecommerce
 yarn install
 json-server server.json -p 3333
 ```
