@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #33BFCB;
+  background: #6991ac;
   padding: 16px 128px;
 }
 
@@ -14,17 +14,17 @@
 }
 
 .logo:hover {
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .logo-icon {
-  height: 32px;
+  height: 40px;
 }
 
 .logo-text {
   margin-left: 8px;
   color: #FFF;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -46,7 +46,7 @@
 
 .header-cart div > strong {
   display: block;
-  color: #B6EDF2;
+  color: #FFF;
 }
 
 .header-cart div span {
@@ -56,6 +56,6 @@
 }
 
 .header-cart div span strong {
-  font-size: 12px;
+  font-size: 16px;
   color: #FFF;
 }

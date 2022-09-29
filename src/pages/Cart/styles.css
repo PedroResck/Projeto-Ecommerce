@@ -13,8 +13,8 @@
 
 .bag-container footer button {
   background: transparent;
-  color: #33BFCB;
-  border: 2px solid #33BFCB;
+  color: #eb5c30;
+  border: 2px solid #eb5c30;
   border-radius: 4px;
   padding: 12px 20px;
   font-weight: bold;
@@ -23,46 +23,46 @@
 
 .bag-container footer button:hover {
   color: #FFF;
-  background: #33BFCB;
+  background: #eb5c30;
 }
 
-.book-table {
+.item-table {
   width: 100%;
 }
 
-.book-table thead th {
+.item-table thead th {
   color: #878C99;
   text-align: left;
   padding: 12px;
 }
 
-.book-table tbody td {
+.item-table tbody td {
   padding: 12px;
   border-bottom: 1px solid #eee;
 }
 
-.book-table img {
+.item-table img {
   height: 100px;
 }
 
-.book-table strong {
+.item-table strong {
   color: #333;
   display: block;
 }
 
-.book-table span {
+.item-table span {
   display: block;
   margin-top: 5px;
   font-size: 18px;
   font-weight: bold;
 }
 
-.book-table div {
+.item-table div {
   display: flex;
   align-items: center;
 }
 
-.book-table div input {
+.item-table div input {
   border: 1px solid #ddd;
   border-radius: 4px;
   color: #878C99;
@@ -70,7 +70,7 @@
   width: 50px;
 }
 
-.book-table button {
+.item-table button {
   background: none;
   border: 0;
   padding: 6px;

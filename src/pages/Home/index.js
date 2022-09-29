@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { FiShoppingBag } from 'react-icons/fi';
+import { FiShoppingCart } from 'react-icons/fi';
 
 import api from '../../services/api';
 import * as CartActions from '../../store/modules/cart/actions';
@@ -9,10 +9,10 @@ import * as CartActions from '../../store/modules/cart/actions';
 import './styles.css';
 
 export default function Home() {
-  const [books, setBooks] = useState([]);
+  const [items, setItems] = useState([]);
   const amount = useSelector(state =>
-    state.cart.reduce((sumAmount, book) => {
-      sumAmount[book.id] = book.amount;
+    state.cart.reduce((sumAmount, item) => {
+      sumAmount[item.id] = item.amount;
 
       return sumAmount;
     }, {})
@@ -21,35 +21,35 @@ export default function Home() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    async function loadBooks() {
-      const response = await api.get('/books');
+    async function loadItems() {
+      const response = await api.get('/items');
 
-      setBooks(response.data);
+      setItems(response.data);
     }
 
-    loadBooks();
+    loadItems();
   }, []);
 
-  function handleAddProduct(book) {
-    dispatch(CartActions.addToCart(book));
+  function handleAddProduct(item) {
+    dispatch(CartActions.addToCart(item));
   }
 
   return (
     <main className="container">
-      <ul className="book-catalog">
-        {books.map(book => (
-          <li key={book.id} className="book-container">
-            <img src={book.image} alt={book.title} />
-            <strong>{book.title}</strong> 
-            <span>R$ {book.price}</span>
+      <ul className="item-catalog">
+        {items.map(item => (
+          <li key={item.id} className="item-container">
+            <img src={item.image} alt={item.title} />
+            <strong>{item.title}</strong> 
+            <span>€ {item.price}</span>
 
-            <button type="button" onClick={() => handleAddProduct(book)}>
+            <button type="button" onClick={() => handleAddProduct(item)}>
               <div>
-                <FiShoppingBag size={16} color="#33BFCB" />{' '}
-                {amount[book.id] || 0}
+                <FiShoppingCart size={16} color="black" />{' '}
+                {amount[item.id] || 0}
               </div>
 
-              <span>Adiconar</span>
+              <span>Add</span>
             </button>
           </li>
         ))}

@@ -16,7 +16,7 @@ html, body, #root {
 
 body {
   font: 400 14px Roboto, sans-serif;
-  background: #F0f0f5;
+  background: #f0f0f0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

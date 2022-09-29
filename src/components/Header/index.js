@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-import { FiShoppingBag } from 'react-icons/fi';
+import { FiShoppingCart } from 'react-icons/fi';
 import './styles.css';
 
-import logo from '../../assets/book.png';
+import logo from '../../assets/3d-cube.png';
 
 export default function Header() {;
   const cartSize = useSelector(state => state.cart.length);
@@ -13,17 +13,17 @@ export default function Header() {;
     <header className="header">
       <Link to="/" className="logo">
         <img className="logo-icon" src={logo} alt="Rocketshoes" />
-        <span className="logo-text">OneBitBooks</span>
+        <span className="logo-text">3D Shop</span>
       </Link>
 
       <Link to="/cart" className="header-cart">
         <div>
-          <strong>Sacola</strong>
+          <strong>CART</strong>
           <span>
-            <strong>{cartSize}</strong> livros
+            <strong>{cartSize}</strong> Products
           </span>
         </div>
-        <FiShoppingBag size={36} color="#FFF" />
+        <FiShoppingCart size={36} color="black" />
       </Link>
     </header>
   );
