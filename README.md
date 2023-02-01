@@ -20,10 +20,10 @@ Ao rodar o projeto:
 
 
 
-## CLONAR O PROJETO
+## PARA CLONAR O PROJETO
 
 1. Clone o repositório <br>
-`git clone git@github.com:PedroResck/projeto-ecommerce.git`
+`git clone git@github.com:PedroResck/Projeto-Ecommerce.git`
 
 2. Entre na pasta do repositório que você acabou de clonar: <br>
 `cd sd-projeto-trivia`
