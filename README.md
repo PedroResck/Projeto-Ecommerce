@@ -72,7 +72,7 @@ Fazendo esse projeto eu tive a oportunidade de:
 Primeiro, é necessário fazer um GET request para:
 
 ```
-https://opentdb.com/api_token.php?command=request
+https://opentdb.com/api.php?amount=${quantidade-de-perguntas-retornadas}&token=${seu-token-aqui}
 ```
 
 Esse endpoint te retornará o token que vai ser utilizado nas requisições seguintes. A resposta dele será:
@@ -84,57 +84,6 @@ Esse endpoint te retornará o token que vai ser utilizado nas requisições segu
    "token":"f00cb469ce38726ee00a7c6836761b0a4fb808181a125dcde6d50a9f3c9127b6"
 }
 ```
-
-Para pegar as perguntas, você deve realizar um GET request para o seguinte endpoint:
-
-```
-https://opentdb.com/api.php?amount=${quantidade-de-perguntas-retornadas}&token=${seu-token-aqui}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Objetivo
-
-* Estudar/treinar a criação de uma aplicação utilizando React / Redux
-* Experienciar a criação de uma fake API com Json Server 
-* Consumir os dados da API criada com Axios
-* Estudar/treinar conceitos de JavaScript
-* Estudar/treinar estilização usando CSS
-
-
-## Tecnologias
-
-* [Node.js](https://nodejs.org/pt-br/)
-* [Json Server](https://www.npmjs.com/package/json-server)
-* [React.js](https://reactjs.org/)
-* [React Icons](https://www.npmjs.com/package/react-icons)
-* [React Router DOM](https://www.npmjs.com/package/react-router-dom)
-* [Axios](https://www.npmjs.com/package/axios)
-* [Redux](https://www.npmjs.com/package/redux)
-* [React Redux](https://www.npmjs.com/package/react-redux)
-* [Redux Toolkit](https://www.npmjs.com/package/@reduxjs/toolkit)
-
-
-## Utilização
-
-1. Instale o [Node.js](https://nodejs.org/en/download/), [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/) e [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git);
-
-2. Clone o projeto utilizando o comando abaixo (chave SSH):
-
-```console
-git clone git@github.com:PedroResck/Projeto-Ecommerce.git
-```
-
 3. Execute os comandos abaixo:
 
 ```console
