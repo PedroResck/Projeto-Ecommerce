@@ -65,25 +65,6 @@ Fazendo esse projeto eu tive a oportunidade de:
     * `npm start` 
 
 
-## API utilizada do Trivia
-
-[API do Trivia](https://opentdb.com/api_config.php).
-
-Primeiro, é necessário fazer um GET request para:
-
-```
-https://opentdb.com/api.php?amount=${quantidade-de-perguntas-retornadas}&token=${seu-token-aqui}
-```
-
-Esse endpoint te retornará o token que vai ser utilizado nas requisições seguintes. A resposta dele será:
-
-```
-{
-   "response_code":0,
-   "response_message":"Token Generated Successfully!",
-   "token":"f00cb469ce38726ee00a7c6836761b0a4fb808181a125dcde6d50a9f3c9127b6"
-}
-```
 3. Execute os comandos abaixo:
 
 ```console
