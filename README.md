@@ -11,9 +11,9 @@ Objetivos do projeto:
 
 ## RECURSOS DO PROJETO
 
-Ao rodar o projeto, você poderá:
+Ao rodar o projeto:
 
-* Comprar de estátuas de personagens da Marvel
+* Será possível comprar estátuas de personagens da Marvel
 * Adicionar vários produtos ao carrinho de compras
 * O cálculo do valor total de compra é automático (feito na página do carrinho de compras)
 * Adicionar e remover produtos diretamente na página do carrinho de compras
