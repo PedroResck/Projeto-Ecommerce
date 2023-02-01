@@ -26,7 +26,7 @@ Ao rodar o projeto:
 `git clone git@github.com:PedroResck/Projeto-Ecommerce.git`
 
 2. Entre na pasta do repositório que você acabou de clonar: <br>
-`cd sd-projeto-trivia`
+`cd sd-Projeto-Ecommerce`
 
 ## INSTALAÇÃO E EXECUÇÃO DO YARN
 
